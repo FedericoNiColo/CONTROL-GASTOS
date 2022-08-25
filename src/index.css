@@ -442,3 +442,37 @@ body .modal {
     font-size: 2.4rem;
     text-align: right;
 }
+
+@media (max-width: 325px) {
+
+    .formulario .campo {
+        display: grid;
+        margin-bottom: 2rem;
+        justify-content: center;
+    }
+
+    .formulario input[type="text"].nuevo-presupuesto, .formulario input[type="number"].nuevo-presupuesto {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .modal .formulario {
+
+        width: 30rem;
+    }
+
+    .formulario input[type="text"], .formulario input[type="number"] {
+        font-size: 2rem;
+    }
+
+    .contenido-gasto {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .gasto {
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
