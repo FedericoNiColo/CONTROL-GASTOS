@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import Filtros from './components/filtros'
+import Filtros from './components/Filtros'
 import Header from './components/Header'
 import ListadoGastos from './components/ListadoGastos'
 import Modal from './components/Modal'
